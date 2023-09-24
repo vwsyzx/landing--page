@@ -1,0 +1,366 @@
+#root {
+  max-width: 100vw;
+  max-height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+@font-face{
+  font-family: titanone;
+  src: url('./assets/TitanOne-Regular.ttf');
+}
+@font-face{
+  font-family: notosans;
+  src: url('./assets/NotoSansPauCinHau-Regular.ttf');
+}
+@font-face{
+  font-family: harabara;
+  src: url('./assets/Harabara.ttf');
+}
+.titanone{
+  font-family: titanone;
+}
+.notosans{
+  font-family: notosans;
+  font-weight: 500;
+}
+.harabara{
+  font-family: harabara;
+  font-weight: 600;
+}
+
+.mainCss-about{
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+.banner-cover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+
+  top: -60px;
+  width: 100%;
+  height: 700px;
+
+  background-image: url('./assets/swimming/1667464134_1-sportishka-com-p-samii-bistrii-tip-plavaniya-krasivo-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.text{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: calc((100% - 250px) / 2);
+  left: 10px;
+
+  padding-left: 10px;
+  width: 560px;
+  height: 250px;
+  font-family: harabara;
+  letter-spacing: 1px;
+  font-weight: 700;
+
+  color: black;
+}
+.letter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  font-size: 100px;
+  background: linear-gradient(90deg, rgba(9,199,238,1) 0%, rgba(28,201,185,1) 22%, rgba(12,84,154,1) 54%, rgba(10,93,186,1) 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 580px){
+  .text{
+    width: 420px;
+    height: 250px;
+  }
+  .letter{
+    height: 80px;
+    font-size: 75px;
+  }
+}
+@media (max-width: 440px){
+  .text{
+    width: 300px;
+    height: 200px;
+    font-weight: 800;
+  }
+  .letter{
+    height: 70px;
+    font-size: 50px;
+  }
+}
+@media (max-width: 320px){
+  .text{
+    width: 240px;
+    height: 200px;
+    font-weight: 800;
+  }
+  .letter{
+    height: 50px;
+    font-size: 40px;
+  }
+}
+
+
+.blog-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  width: 100%;
+  height: auto;
+  font-family: harabara;
+}
+.picture{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 760px;
+  height: 600px;
+}
+.img1{
+  width: 700px;
+  height: 580px;
+}
+
+.desc-for{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 420px;
+  height: 450px;
+  padding: 0px 8px;
+  margin-right: 70px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 1150px){
+  .blog-1{
+    justify-content: center;
+    flex-direction: column;
+  }
+  .picture{
+    justify-content: center;
+  }
+  .desc-for{
+    margin-right: 0px;
+  }
+}
+@media (max-width: 700px){
+  .picture{
+    width: 600px;
+  }
+  .img1{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 600px){
+  .picture{
+    width: 350px;
+    height: 350px;
+  }
+  .img1{
+    width: 100%;
+    height: 100%;
+  }
+  .desc-for{
+    width: 350px;
+    height: 450px;
+  }
+}
+@media (max-width: 350px){
+  .picture{
+    width: 270px;
+    height: 270px;
+  }
+  .img1{
+    width: 100%;
+    height: 100%;
+  }
+  .desc-for{
+    width: 260px;
+    height: 500px;
+  }
+}
+
+
+
+.blog-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+  margin: 10px 0px;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 100px 0px 80px 0px;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  width: 500px;
+  height: 650px;
+  margin: 8px 0px;
+}
+
+.pic1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 500px;
+  height: 400px;
+}
+.img-blog-2{
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 90%;
+  height: 230px;
+
+  word-break: keep-all;
+}
+@media  (max-width: 1000px){
+  .top{
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px){
+  .pic1{
+    width: 350px;
+    height: 300px;
+  }
+  .box{
+    width: 350px;
+    height: 470px;
+  }
+}
+@media (max-width: 350px){
+  .pic1{
+    width: 270px;
+    height: 250px;
+  }
+  .box{
+    width: 270px;
+  }
+}
+
+.contact-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+  margin-top: 120px;
+}
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  width: 770px;
+  height: 65px;
+  margin: 20px 0px 30px 0px;
+
+  color: white;
+  background-color: rgb(13, 44, 69);
+  border-radius: 8px;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  width: 120px;
+  height: auto;
+}
+.icon{
+  font-size: 35px;
+  margin: 0px 12px;
+}
+.text-for{
+  font-size: 20px;
+  font-weight: 200;
+}
+.span{
+  width: 2px;
+  height: 35px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 770px){
+  .contact{
+    width: 350px;
+    height: 350px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .span{
+    width: 120px;
+    height: 2px;
+  }
+}
+
+@media (max-width: 350px){
+  .contact{
+    width: 270px;
+    height: 350px;
+  }
+  .text-for{
+    font-size: 18px;
+  }
+}
