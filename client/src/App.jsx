@@ -15,19 +15,15 @@ function App() {
           <div className='mx-3 w-[70px] h-[70px] flex items-center justify-center'>
             <Link to="/"><img src={icon} className='@[420px]:w-[70px] @[420px]:h-[55px] @[200px]:w-[60px] @[200px]:h-[45px]'/></Link>
           </div>
-          <div className='flex flex-row items-center justify-evenly @[320px]:w-[250px] @[280px]:w-[200px] @[200px]:w-[180px]'>
+          <div className='flex flex-row items-center justify-evenly @[320px]:w-[150px] @[280px]:w-[150px] @[200px]:w-[150px]'>
             <div className='w-[80px] flex items-center justify-center'>
             <Link to="/" className='cursor-pointer @[280px]:text-2xl @[200px]:mx-1 @[320px]:text-3xl @[200px]:text-xl @[320px]:mx-2'><span className='harabara'>About</span></Link>
-            </div>
-            <div className='w-[80px] flex items-center justify-center'>
-              <Link to="/contact" className='cursor-pointer @[280px]:text-2xl @[200px]:mx-1 @[320px]:text-3xl @[200px]:text-xl @[320px]:mx-2'><span className='harabara'>Contact</span></Link>
             </div>
           </div>
         </div>
       <div>
         <Routes>
           <Route path='/' element={<About/>}/>
-          <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </div>
       

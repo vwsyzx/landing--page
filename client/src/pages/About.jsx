@@ -77,8 +77,8 @@ const About = () => {
                     <div className='flex flex-row items-center justify-center'><span className='icon'><HiPhone/></span><span className='text-for'>+998936688113</span></div>
                     <span className='span'></span>
                     <div className='icons'>
-                        <span className='mx-2 text-3xl'><FaInstagram/></span>
-                        <span className='mx-2 text-3xl'><FaTelegramPlane/></span>
+                        <a href='https://instagram.com/vwsyzx?igshid=OGQ5ZDc2ODk2ZA==' className='mx-2 text-3xl'><FaInstagram/></a>
+                        <a href='https://t.me/xwyvxz' className='mx-2 text-3xl'><FaTelegramPlane/></a>
                     </div>
                 </div>
             </div>
